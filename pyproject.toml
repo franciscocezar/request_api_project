@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "request-api"
+version = "0.1.0"
+description = ""
+authors = ["Francisco Cezar <franciscocezar.jr@outlook.com>"]
+readme = "README.md"
+packages = [{include = "request_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
